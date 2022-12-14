@@ -34,6 +34,8 @@ CREATE TABLE `php_docker_table` (
   `data_nasterii` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+
+
 --
 -- Dumping data for table `php_docker_table`
 --
