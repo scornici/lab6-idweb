@@ -17,13 +17,13 @@ $response = mysqli_query($connect, $query);
 $title = "Studentii FI-201";
     echo "<h1 style='text-align: center; font-size: 5em; padding-top: 1em'><strong>$title</strong></h1>";
 
-//while ($row = $response->fetch_assoc()) {
-//      echo '<div class="image-row">';
-//      echo '<div class="image-container">';
-//      echo '<div class="description">' . $row['NP'] . ' [ ' . $row['grupa'] . ',  ' . $row['data_nasterii'] . ' ] ' . '</div>';
-//      echo '</div>';
-//      echo '</div>';
-//    }
+while ($row = $response->fetch_assoc()) {
+      echo '<div class="image-row">';
+      echo '<div class="image-container">';
+      echo '<div class="description">' . $row['NP'] . ' [ ' . $row['grupa'] . ',  ' . $row['data_nasterii'] . ' ] ' . '</div>';
+      echo '</div>';
+      echo '</div>';
+    }
 ?>
 
 <html>
